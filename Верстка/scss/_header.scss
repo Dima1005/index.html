@@ -1,0 +1,150 @@
+.header {
+   padding: 29px 0 33px 0;
+}
+@media (max-width: 768px) {
+   .header {
+      padding: 10px 0 0 0;
+   }
+}
+.header__container {
+}
+.header__container__top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.wrapper {
+}
+._container {
+}
+.header {
+}
+.header__container {
+}
+.header__container__top {
+}
+.top-header {
+}
+.top-header__lang {
+}
+.top-header__item {
+   font-size: 11px;
+   color: black;
+   line-height: 19px;
+   text-transform: uppercase;
+   transition: all 0.2s ease 0s;
+}
+.top-header__item:hover {
+   color: #fff;
+   background: black;
+   border-radius: 2px;
+}
+
+.header__container__top__link {
+   font-size: 15px;
+   text-transform: uppercase;
+   color: black;
+   font-weight: 700;
+   transition: all 0.3s ease 0s;
+   letter-spacing: 1px;
+}
+.header__container__top__link:hover {
+   color: #fff;
+   background: black;
+   border-radius: 2px;
+}
+
+.header__container__bottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: -25px 0 0 0;
+   padding: 0 5px;
+}
+@media (max-width: 670px) {
+   .header__container__bottom {
+      padding: 15px 5px 0 5px;
+   }
+}
+@media (max-width: 510px) {
+   .header__container__bottom {
+      padding: 20px 0 0 0;
+   }
+}
+.bottom-header {
+}
+.bottom-header__column {
+   flex: 0 0 33%;
+}
+@media (max-width: 670px) {
+   .bottom-header__column {
+      flex: 0 0 25%;
+   }
+}
+@media (max-width: 510px) {
+   .bottom-header__column {
+      flex-direction: column;
+      flex: 0 0 25%;
+      text-align: center;
+   }
+}
+.bottom-header__menu {
+}
+.bottom-header__menu-list {
+   display: flex;
+   justify-content: space-between;
+}
+@media (max-width: 768px) {
+   .bottom-header__menu-list {
+      flex-wrap: wrap;
+   }
+}
+@media (max-width: 510px) {
+   .bottom-header__menu-list {
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+}
+.bottom-header__menu-link {
+   color: black;
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: 1.5px;
+   transition: all 0.3s ease 0s;
+   line-height: 25px;
+}
+
+.bottom-header__menu-link:hover {
+   color: #fff;
+   background: black;
+   border-radius: 2px;
+}
+
+.header-logo {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.header-logo__text1 {
+   position: absolute;
+   z-index: 1;
+   margin-top: 11px;
+   color: black;
+   font-size: 8px;
+   font-weight: 700;
+   letter-spacing: 5px;
+}
+.header-logo__text2 {
+   margin-top: -20px;
+   color: black;
+   font-size: 8px;
+   font-weight: 700;
+   letter-spacing: 5px;
+}
+.header-logo__image {
+   display: block;
+   height: 100px;
+   width: 200px;
+   background: url(/img/Google-logo.jpg) 0 0/100% 100% no-repeat;
+}
