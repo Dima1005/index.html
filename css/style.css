@@ -275,7 +275,7 @@ body {
   display: block;
   height: 100px;
   width: 200px;
-  background: url(img/Google-logo.jpg) 0 0/100% 100% no-repeat;
+  background: url(../img/Google-logo.jpg) 0 0/100% 100% no-repeat;
 }
 
 body {
